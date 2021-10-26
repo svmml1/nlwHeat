@@ -1,0 +1,9 @@
+datasource db {
+  provider = "postgresql"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+.
